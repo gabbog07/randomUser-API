@@ -1,15 +1,17 @@
+@import "commons.css";
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Baskervville", serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #000b5d;
 }
 
 .card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.726);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -28,7 +30,7 @@ body {
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    border: 3px solid #007bff;
+    border: 3px solid #00144b;
 }
 
 .profile h2 {
